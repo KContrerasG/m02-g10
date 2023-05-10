@@ -1,91 +1,68 @@
-
-body{ /* body selecciona el cuerpo general y lo pinta */
-	background-color: lightcoral; /* https://www.w3schools.com/colors/colors_names.asp */  
-	font-family: 'Dancing Script', cursive;
-			}
-
-#introduccion{/* selecciona el div y lo pinta */
-	width: 900px;
-	padding: 20px 0px;
-	margin: 0px;
-	background: purple;
-	margin: 0 auto; /* centrar elementos dentro de este div */
-	float: center;  /* otras opciones son left, right */
+body {background-color: #706F6F; width: 100vw; 
 }
 
-#contenedor{/* selecciona el div y lo pinta */
-	width: 900px; 
-	padding: 20px 0px;
-	margin: 0px;
-	background: gray;
-	margin: 0 auto; /* centrar elementos dentro de este div */
-	float: center;  /* otras opciones son left, right */
+h1 {color: #FFFFFF; 
+	font-family: 'Dancing Script', cursive; text-align: center;
+font-size: 80px;}
+
+.titulo {
+width: 1620px;
+height: 100px;
+}
+.caja {background-color: white;
+width: 500px;
+height: 300px;
+margin: 20px;
+float:left;
+position: center; 
 }
 
-div{/* selecciona el div y lo pinta */
-	width: 820px; 
-	padding: 20px;
-	margin: 20px 20px;
-	background: white;
-}
-#desarrollo{/* selecciona el id y lo pinta */
-	background-color: orange;
-	}
+#portugal {display: flex;
+  align-items: center; align-items: stretch;}
 
-h1{/* selecciona el header o titulo 1 y lo pinta */
-	background-color: pink;
-	width: 100%;
-	padding: 0px;
-	margin: 20px 0px;
-	border: 0px solid blue;
-	font-size: 28px;
-	color: hotpink;
-	text-align: center;
-	font-family: 'Merriweather', serif;
-	}
+.parteverde {background-color: #046A38;
+width: 200px;
+height: 300px;
 
-h2 {/* selecciona el header o titulo 3 y lo pinta */
-	background: pink;
-	font-size: 20px;
-	color: navy;
-	font-family: 'Merriweather', serif;
-	text-align: center;
-	}
-
-h3 {
-	font-family: 'Merriweather', serif;
 }
 
-p {/* selecciona el parrafo y lo pinta */
-	background-color: white;
-	width: 100%;
-	padding: 10px;
-	font-size: 18px;
-	}
+.parteroja {background-color: #DA291C;
+width: 300px;
+height: 300px;
+display:;
+}
+.escudo {position: absolute;
+margin-left: 125px;
+margin-top: 75px}
 
-img{/* selecciona las imagenes y las formatea */
-	border: 0px solid gray;
-	width: 100%;
-	}
+#suecia {background-color: #004B87 ;display: flex;
+  }
 
+.horizontal {background-color: #FFCD00;
+width: 500px;
+height: 50px;
+margin-top: 125px;
+position: absolute;
 
-.info-footer {
-  display: flex;
-  width: 100%;
-  background-color: #002a38;
-  line-height: 1.3;
-  font-family: Menlo, monospace;
+}
+.vertical {background-color: #FFCD00;
+width: 50px;
+height: 300px;
+margin-left: 225px;
 }
 
-.lista-footer {
-  display: inline-grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  grid-auto-flow: row;
-  grid-gap: 24px;
-  justify-items: center;
-  margin: auto;
-}
+#japon {display: flex;}
 
-a{
-	color: white;
+.circulo {margin-top: 50px;
+margin-left: 150px; }
+
+.nombre {
+width: 1620px;
+height: 300px;
 }
+h3 {color: #FFFFFF;
+
+	font-family: 'Roboto', sans-serif;
+	text-align: right;
+    font-size: 20px;
+    padding-top:300px; }
